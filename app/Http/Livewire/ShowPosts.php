@@ -10,7 +10,6 @@ class ShowPosts extends Component
 {
     public $posts;
     public $post;
-    public $user;
 
     protected $rules = [
         'post' => 'required|min:4|max:20',

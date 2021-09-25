@@ -1,7 +1,5 @@
 <div>
-   @foreach ($user as $item)
-       <div>{{$item->name}}</div>
-   @endforeach
+ 
     <form wire:submit.prevent="addPost">
         <div class="relative p-1 border-gray-500 rounded-md shadow-sm flex w-6/12">
             <input wire:model="post" id="name" class="border-none bg-white p-2 w-full rounded shadow-sm" name="name" value="{{ old('name') }}" autocomplete="off"
