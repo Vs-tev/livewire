@@ -12,7 +12,7 @@ class MusicSearch extends Component
 
     public function updatedSearch()
     {
-        if (strlen($this->search) < 4) {
+        if (strlen($this->search) < 3) {
             return;
         }
 
