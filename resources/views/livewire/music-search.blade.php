@@ -47,7 +47,7 @@
                                             @if (array_key_exists('country', $result))
                                                 {{ $result['country'] }}
                                             @else
-                                                No Artist
+                                                No Artist found with this name
                                             @endif
                                         </div>
                                     </div>
