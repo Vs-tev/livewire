@@ -6,6 +6,7 @@
             @livewire('show-posts')
             
         </div>
+        <h2>Hello Vasko</h2>
         <div>
             @livewire('music-search')
         </div>
